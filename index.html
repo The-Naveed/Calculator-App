@@ -6,51 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="Stylesheet" href="style.css">
-
 </head>
+
 <body>
     <h5></h5>
     <table>
         <tr>
-            <td colspan="4"><input class="inputfield" placeholder="0" type="text"></td>
+            <td colspan="4"><input class="inputfield" placeholder="0" type="text" id="userData"></td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td><button>(</button></td>
-            <td><button>)</button></td>
-            <h1>
-                <td><button>C</button></td>
-            </h1>
-            <td><button>AC</button></td>
+            <td><button onclick="findValue('(')">(</button></td>
+            <td><button onclick="findValue(')')">)</button></td>
+            <td><button onclick="clearOneValue()">C</button></td>
+            <td><button onclick="clearAllValue()">AC</button></td>
         </tr>
         <tr>
-            <td><button>7</button></td>
-            <td><button>8</button></td>
-            <td><button>9</button></td>
-            <td><button>÷</button></td>
+            <td><button onclick="findValue(7)">7</button></td>
+            <td><button onclick="findValue(8)">8</button></td>
+            <td><button onclick="findValue(9)">9</button></td>
+            <td><button onclick="findValue('/')">÷</button></td>
         </tr>
         <tr>
-            <td><button>4</button></td>
-            <td><button>5</button></td>
-            <td><button>6</button></td>
-            <td><button>x</button></td>
+            <td><button onclick="findValue(4)">4</button></td>
+            <td><button onclick="findValue(5)">5</button></td>
+            <td><button onclick="findValue(6)">6</button></td>
+            <td><button onclick="findValue('*')">x</button></td>
         </tr>
         <tr>
-            <td><button>1</button></td>
-            <td><button>2</button></td>
-            <td><button>3</button></td>
-            <td><button>-</button></td>
+            <td><button onclick="findValue(1)">1</button></td>
+            <td><button onclick="findValue(2)">2</button></td>
+            <td><button onclick="findValue(3)">3</button></td>
+            <td><button onclick="findValue('-')">-</button></td>
         </tr>
         <tr>
-            <td><button>0</button></td>
-            <td><button>.</button></td>
-            <td><button>=</button></td>
-            <td><button>+</button></td>
+            <td><button onclick="findValue(0)">0</button></td>
+            <td><button onclick="findValue('.')">.</button></td>
+            <td><button onclick="calculation()">=</button></td>
+            <td><button onclick="findValue('+')">+</button></td>
         </tr>
     </table>
-
 </body>
 <script src="app.js"></script>
 

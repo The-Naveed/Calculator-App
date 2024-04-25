@@ -1,3 +1,19 @@
-// var userName = prompt("Enter Your Name");
-// alert("Dear, "+ userName +" Welcome To Naveed's Simple Calculating Web Page");
+function findValue(num){
+    var data = document.getElementById("userData");
+    data.value += num
+}
 
+function calculation(){
+    var data = document.getElementById("userData");
+    data.value = eval(data.value)   
+}
+
+function clearAllValue(){
+    var data = document.getElementById("userData");
+    data.value = " "
+}
+
+function clearOneValue(){
+    var data = document.getElementById("userData");
+    data.value = data.value.slice(0,-1)
+}
