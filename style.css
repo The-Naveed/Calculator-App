@@ -1,4 +1,3 @@
-
 * {
 margin: 0;
 padding: 0;
@@ -22,35 +21,30 @@ text-align: center;
 }
 
 table button {
-background-color: black;
-color: white;
-font-size: 50px;
-border: none;
-height: 90px;
-width: 200px;
-font-weight: bolder;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    border: none;
+    height: 90px;
+    width: 200px;
+    font-weight: bolder;
+    outline: none;
+    transition: all 0.3s ease;
 }
 
 table button:hover {
-font-size: 55px;
-/* cursor: pointer; */
-background: #000000;
-background: -webkit-linear-gradient(to right, #434343, #000000);
-background: linear-gradient(to top, #ffe4e427, #000000);
-border: 1px solid rgb(21, 21, 21);
+    font-size: 55px;
+    background: linear-gradient(to top, #ffe4e427, #000000);
+    border: 1px solid rgb(21, 21, 21);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 table button:active {
-font-size: 50px;
-box-shadow: 0 0 5px blue;
-background-color: transparent;
+    transform: translateY(1px);
+    box-shadow: 0 0 5px white;
+    background-color: transparent;
 }
 
-/* .h1 button:active {
-font-size: 0px;
-box-shadow: 0 0 05px red;
-background-color:transparent;
-} */
 table td input {
 width: 97.8%;
 height: 100px;
@@ -93,7 +87,7 @@ text-align: center;
 table button {
 background-color: black;
 color: white;
-font-size: 60px;
+font-size: 50px;
 border: none;
 height: 100px;
 width: 100px;
@@ -101,8 +95,7 @@ font-weight: bolder;
 }
 
 table button:hover {
-font-size: 70px;
-/* cursor: pointer; */
+font-size: 55px;
 
 }
 
@@ -112,21 +105,13 @@ box-shadow: 0 0 5px blue;
 background-color: transparent;
 }
 
-/* .h1 button:active {
-font-size: 0px;
-box-shadow: 0 0 05px red;
-background-color:transparent;
-} */
 table td input {
 width: 405px;
 color: wheat;
-font-size: 80px;
+font-size: 50px;
 text-align: right;
 font-weight: bold;
 border: 1px solid rgb(21, 21, 21);
 padding: 20px;
-
-
 }    
-
 }
