@@ -26,7 +26,6 @@ table button {
     border: none;
     height: 90px;
     width: 200px;
-    font-weight: bolder;
     outline: none;
     transition: all 0.3s ease;
 }
