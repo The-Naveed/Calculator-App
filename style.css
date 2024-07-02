@@ -4,7 +4,6 @@ padding: 0;
 box-sizing: border-box;
 background-color:black;
 font-family: "Kanit", sans-serif;
-font-weight: 10;
 font-style: normal;}
 
 body h5 {
@@ -35,7 +34,7 @@ table button {
 table button:hover {
     font-size: 55px;
     background: linear-gradient(to top, #ffe4e427, #000000);
-    border: 1px solid rgb(21, 21, 21);
+    border: 0.1px solid white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -55,9 +54,7 @@ font-weight: bold;
 border: 1px solid rgb(21, 21, 21);
 padding: 50px;
 background: #000000;
-background: -webkit-linear-gradient(to right, #434343, #000000);
-background: linear-gradient(to top, #ffe4e427, #000000);
-border: 1px solid rgb(21, 21, 21);
+border: 1px solid rgba(95, 94, 94, 0.376);
 }
 
 
@@ -101,7 +98,7 @@ font-size: 55px;
 
 table button:active {
 font-size: 60px;
-box-shadow: 0 0 5px blue;
+box-shadow: 0 0 5px white;
 background-color: transparent;
 }
 
@@ -111,7 +108,7 @@ color: wheat;
 font-size: 50px;
 text-align: right;
 font-weight: bold;
-border: 1px solid rgb(21, 21, 21);
+border: 1px solid rgba(95, 94, 94, 0.376);
 padding: 20px;
 }    
 }
